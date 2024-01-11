@@ -1,13 +1,13 @@
 <?php $title = "Index"; ?>
 <?php include("_header.php"); ?>
-<h6> Mika Manaligod</h6>
+<h4> Mika Manaligod</h4>
 
 <?php include("zodiac.php"); ?>
 <?php include("form.php"); ?>
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $year = $_POST["year"];
-    if ($year == "" || $year < 1900 || $year > 2023) {
+    if ($year == "" || $year < 1900 || $year > 2024) {
         echo "<p>Invalid year</p>";
     } else {
         $year = $_POST["year"];
