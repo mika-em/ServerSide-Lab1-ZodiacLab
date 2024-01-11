@@ -3,7 +3,7 @@
 <?php ?>
 
 <form action="index.php" method="post">
-    <label for="year">Year</label>
+    <label for="year">Year: </label>
     <input type="text" name="year" id="year">
     <input type="submit" value="Get Zodiac">
     <input type="reset" value="Clear">
